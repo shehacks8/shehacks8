@@ -21,7 +21,6 @@
     "@fontsource/raleway": "^5.0.15",
     "@fontsource/work-sans": "^5.0.16",
     "@types/react-dom": "18.2.7",
-    "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "chakra-react-select": "^4.7.4",
     "eslint": "8.47.0",
