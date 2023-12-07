@@ -1,0 +1,8 @@
+H1 = heading size = '4xl'
+H2 = heading size = '3xl'
+H3 = heading size = '2xl'
+H4 = heading size = '1xl'
+
+main page text = text  fontSize = 'xl'
+main page FAQ = text fontSize = 'md'
+italics = text fontSize = 'sm'
