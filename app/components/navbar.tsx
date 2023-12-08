@@ -208,7 +208,7 @@ const NAV_ITEMS: Array<NavItem> = [
     href: '/',
   },
   {
-    label: 'Olympics',
+    label: 'Hacker Olympics',
     href: '/hacker-olympics',
   },
   {

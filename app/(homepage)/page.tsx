@@ -67,13 +67,34 @@ export default function HomePage() {
           size = {{ "2xl": '4xl', xl: '4xl', lg: '2xl', md: '2xl', sm: 'lg', base: 'md'}} 
           pt= {{ "2xl": '', xl: '40px', lg: '0px', md: '25px', sm: '0px'}}
         > she/hacks+ </Heading>
+              <HStack
+              >
+          <Text 
+          style={workSans.style} 
+          color="#FFFFFF" 
+          fontSize = {{ "2xl": 'xl', xl: 'xl', lg: 'lg', md: 'lg', sm: 'sm', base: 'xs'}} 
+          > Powered By </Text>
+        <Image
+          src= {"https://techtogether.io/imgs/logos/lockup_techtogether_color.png"}
+          // mt = "400px"
+          // sizes = {"(min-width: 0px) 100px ,(min-width: 480px) 200px, (min-width: 768px) 250px, (min-width: 992px) 250px, (min-width: 1280px) 400px, (min-width: 1280px) 500px"}
+          // width = {width1}
+          // height= {height1}
+          width = {{ '2xl': '100px', xl:'100px', lg: '75px', md:'75px',sm: '50px', base: '45px'}}
+          height = {{ '2xl': '25px', xl:'25px', lg: '25px', md:'25px',sm: '25px', base: '15px'}}
+          alt={'techtogetherlong'}
+          objectFit={"contain"}
+        />
+            
+</HStack>
         <Text 
           style={abril.style} 
           color="#8F3F1D" 
           fontSize= {{ "2xl": 'xl', xl: 'xl', lg: 'lg', md: 'lg', sm: 'sm', base: 'xs'}} 
           fontWeight='700' 
-          pt= {{ "2xl": '', xl: '30px', lg: '15px', md: '15px', sm: ''}}
+          pt= {{ "2xl": '', xl: '', lg: '', md: '', sm: ''}}
           > Hackathon for Women & Non Binary Individuals</Text>
+
         <Text 
           style={workSans.style} 
           color="#8F3F1D" 
