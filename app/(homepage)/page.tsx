@@ -79,7 +79,7 @@ export default function HomePage() {
           color="#8F3F1D" 
           fontSize = {{ "2xl": 'xl', xl: 'xl', lg: 'lg', md: 'lg', sm: 'sm', base: 'xs'}} 
           pb="10px"
-          > January 12-14th, 2023</Text>
+          > January 12-14th, 2024</Text>
         <Link href="https://witsuwo.typeform.com/to/EI2tyyPo">
           <Button 
             style={abril.style} 
