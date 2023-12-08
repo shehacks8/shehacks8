@@ -392,7 +392,7 @@ export default function HomePage() {
           initiative, driven by individuals deeply passionate about 
           fostering diversity and inclusivity in technology.        
         </Text>
-        <Box
+        {/* <Box
             width= {[ "1250px", '500px', '1000px', '1200px', '1500px',  '2000px']}
             height= {[ "150px", '200px', '400px', '650px', '900px',  ' 900px']}
           >
@@ -407,7 +407,7 @@ export default function HomePage() {
         alt={'shehacks history'}
         objectFit={"contain"}
       />
-      </Box>
+      </Box> */}
     </VStack>
 
 {/* brought to you by wits */}
