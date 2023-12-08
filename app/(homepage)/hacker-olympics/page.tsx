@@ -115,8 +115,8 @@ export default function HackerOlympics() {
             fontSize = {{"2xl": '2xl', xl: '2xl', lg: '2xl', md: 'md', sm: 'sm', base: '8px'}}
             pt="10px" 
             textAlign="left"> 
-            Hackers in this stream will work in teams of 4 to complete a series of specially-designed technical challenges instead of competing in the regular stream to build the “perfect” hack. Challenges will be built upon skills taught in workshops that run during SheHacks          </Text>
-
+              Hackers in this stream will work in teams of 4 to complete a project (“mini hack”) instead of competing in the regular stream. The project will be built upon skills taught in workshops that run during SheHacks+, and are specifically designed for beginners in the Hacker Olympics stream.
+          </Text>
         </Box>
 
         <Box
@@ -214,8 +214,8 @@ export default function HackerOlympics() {
           </AccordionButton>
         </h2>
         <AccordionPanel style={poppins.style} color="#230E05" fontSize = {{"2xl": 'xl', xl: 'xl', lg: 'xl', md: 'xs', sm: '8px', base: '6px'}} pb={4}>
-          Not at all! You get to build a series of mini projects that are guided by applying what you’ve learned through workshops. The purpose is to get you comfortable with working collaboratively on projects so that you can return to SheHacks+ (or any other hackathon) feeling comfortable to build a full hack!
-        </AccordionPanel>
+        Not at all! You get to build a mini hack at the end of the weekend that is guided by applying what you&apos;ve learned through workshops. The purpose is to get you comfortable with working collaboratively on projects so that you can return to SheHacks+ (or any other hackathon) feeling comfortable to build a full hack!
+    </AccordionPanel>
       </AccordionItem>
       <AccordionItem>
         <h2>
