@@ -66,7 +66,7 @@ export default function HomePage() {
           color = "#FFFFFF" 
           size = {{ "2xl": '4xl', xl: '4xl', lg: '2xl', md: '2xl', sm: 'lg', base: 'md'}} 
           pt= {{ "2xl": '', xl: '40px', lg: '0px', md: '25px', sm: '0px'}}
-        > she/hacks+ </Heading>
+        > &lt;she/hacks+&gt; </Heading>
               <HStack
               >
           <Text 
