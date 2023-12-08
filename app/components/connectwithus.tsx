@@ -24,13 +24,13 @@ export default function WithSubnavigation() {
     <Box 
       textAlign='center' 
       // pt = "10px"
-      backgroundImage="/homepage/background/footer.png"
+      backgroundImage="/homepage/background/footer.svg"
       backgroundSize={"100%"}
       backgroundRepeat= "no-repeat"
       backgroundBlendMode={"multiply"}
       w = "100%"
       // opacity={"0.5"}
-      backgroundColor={"#ABA48C"}
+      backgroundColor={"#B2AD98"}
       >
 
     <Heading

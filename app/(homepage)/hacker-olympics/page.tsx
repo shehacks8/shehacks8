@@ -163,7 +163,10 @@ export default function HackerOlympics() {
           objectFit={"contain"}
         />
         </Box>
-        <Box>
+        <Box
+          pt= {{"2xl": '450px', xl: '245px', lg: '125px', md: '95px', sm: '70px', base: '50px'}}
+
+        >
           <Heading 
           style={abril.style} 
           color="#230E05" 
@@ -208,7 +211,7 @@ export default function HackerOlympics() {
     <Accordion  fontFamily = 'bodyFont'>
       <AccordionItem>
         <h2>
-        <AccordionButton h = {{"2xl": '85px', xl: '75px', lg:'63px', md: '55px', sm: '17px', base: '25px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+        <AccordionButton h = {{"2xl": '110px', xl: '110px', lg:'70px', md: '65px', sm: '45px', base: '30px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
                 <b>Doesn’t Hacker Olympics defeat the purpose of going to a hackathon: building a hack?</b>
               </Box>
@@ -221,7 +224,7 @@ export default function HackerOlympics() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{"2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{"2xl": '85px', xl: '85px', lg:'55px', md: '45px', sm: '17px', base: '16px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
               <b>What challenges will I compete in?</b>
             </Box>
@@ -234,7 +237,7 @@ export default function HackerOlympics() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{"2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{"2xl": '85px', xl: '85px', lg:'55px', md: '45px', sm: '16px', base: '16px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>What if I don’t have a team of 4?</b>
             </Box>
@@ -247,7 +250,7 @@ export default function HackerOlympics() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{"2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '25px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{"2xl": '85px', xl: '110px', lg:'55px', md: '45px', sm: '45px', base: '30px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Can I be a beginner and compete in the regular stream?</b>
             </Box>
@@ -260,7 +263,7 @@ export default function HackerOlympics() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{"2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '25px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{"2xl": '85px', xl: '85px', lg:'55px', md: '45px', sm: '45px', base: '30px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Can I switch into this stream the day of SheHacks+?</b>
             </Box>
@@ -273,7 +276,7 @@ export default function HackerOlympics() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-        <AccordionButton h = {{"2xl": '85px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '25px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+        <AccordionButton h = {{"2xl": '110px', xl: '110px', lg:'55px', md: '45px', sm: '45px', base: '30px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Can I compete in both Hacker Olympics and regular stream?</b>
             </Box>

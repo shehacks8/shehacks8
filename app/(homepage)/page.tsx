@@ -31,8 +31,8 @@ const poppins = Poppins({ subsets: ['latin'], weight: ['400'] })
 
 export default function HomePage() {
 
-  let width1 = [ 500, 400, 250,250, 200,100]
-  let height1 =[ 500,  400,  250,  250,  200,  100]
+  // let width1 = [ 500, 400, 250,250, 200,100]
+  // let height1 =[ 500,  400,  250,  250,  200,  100]
 
  if (typeof window !== undefined){
   return (
@@ -40,7 +40,7 @@ export default function HomePage() {
     fontFamily='Lobster'
     backgroundImage="/homepage/background/mainpage.svg"
     backgroundSize= "100%"
-    backgroundRepeat= "no-repeat"
+    backgroundRepeat= "repeat-x"
     bgColor={"#ABA48C"}
 
     >
@@ -210,13 +210,14 @@ export default function HomePage() {
     <Center>
       <VStack
       spacing= {{ "2xl": '150px', xl: '150px', lg: '75px', md: '50px', sm: '25px', base: '25px'}}
+      pt= {{ "2xl": '900px', xl: '400px', lg: '200px', md: '225px', sm: '100px', base: '80px'}}
+
       >
         <Heading 
         style={abril.style}
         id='sponsors' 
         color="#230E05"
         size = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: 'xs'}}
-        pt= {{ "2xl": '700px', xl: '500px', lg: '200px', md: '225px', sm: '100px', base: '80px'}}
         // mb = "5px"
         >
            SPONSORS 
@@ -330,7 +331,7 @@ export default function HomePage() {
   {/* Why sponsor */}
   <HStack
     mx = {{ "2xl": '150px',xl: '125px', lg: '100px', md: '75px', sm: '55px',  base: '30px'}} 
-    pt= {{ "2xl": '250px', xl: '75px', lg: '75px', md: '75px', sm: '55px', base: '30px'}}
+    pt= {{ "2xl": '600px', xl: '200px', lg: '165px', md: '120px', sm: '100px', base: '65px'}}
 
   >
       <Box textAlign='left'>
@@ -367,13 +368,13 @@ export default function HomePage() {
 
   {/* The history of shehacks */}
   <VStack
-    
+              pt= {{ "2xl": '1550px', xl: '1000px', lg: '925px', md: '650px', sm: '325px', base: "325px"}}
+
     >
         <Heading 
           style={abril.style}
           color="#230E05" 
           size = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: 'xs'}} 
-          pt= {{ "2xl": '2150px', xl: '1000px', lg: '925px', md: '650px', sm: '325px', base: "325px"}}
           > 
             The History of SheHacks+ 
           </Heading>
@@ -413,7 +414,7 @@ export default function HomePage() {
 {/* brought to you by wits */}
 <HStack 
   mx = {{ "2xl": '150px',xl: '125px', lg: '100px', md: '75px', sm: '55px',  base: '30px'}} 
-  pt= {{ "2xl": '', xl: '30px', lg: '75px', md: '75px', sm: '55px', base: '30px'}}
+  pt= {{ "2xl": '250px', xl: '100px', lg: '75px', md: '75px', sm: '55px', base: '30px'}}
   >
     <Box
       // width= {['100px', '125px', '250px', '325px', '400px', '400px']}
@@ -477,7 +478,7 @@ export default function HomePage() {
       >
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
               <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
               <b>What is a Hackathon?</b>
               </Box>
@@ -490,7 +491,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton style={poppins.style} h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton style={poppins.style} h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Is SheHacks+ 8 in-person?</b>
             </Box>
@@ -503,7 +504,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
               <b>I don’t know how to code. Can I still come?</b>
             </Box>
@@ -515,7 +516,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
               <b>Does SheHacks+ cost anything?</b>
             </Box>
@@ -527,7 +528,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Do I need to come with a team?</b>
             </Box>
@@ -540,7 +541,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold'>
             <b>Can I still come if I&apos;m not a woman+?</b>
             </Box>
@@ -553,7 +554,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left' fontWeight='bold' >
             <b>I&apos;m a recently graduated student. Can I still apply?</b>
             </Box>
@@ -566,7 +567,7 @@ export default function HomePage() {
       </AccordionItem>
       <AccordionItem>
         <h2>
-          <AccordionButton h = {{ "2xl": '75px', xl: '75px', lg:'50px', md: '30px', sm: '17px', base: '12px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
+          <AccordionButton h = {{ "2xl": '88px', xl: '88px', lg:'50px', md: '40px', sm: '23px', base: '23px'}} _expanded={{ bg: '#6E6655', color: 'white' }}>
             <Box style={poppins.style} fontSize = {{ "2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} as="span" flex='1' textAlign='left'  fontWeight='bold'>
              <b>I don&apos;t attend a Canadian university. Can I still apply?</b>
             </Box>
