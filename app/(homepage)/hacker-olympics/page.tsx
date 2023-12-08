@@ -80,16 +80,14 @@ export default function HackerOlympics() {
             textAlign="left"
             size = {{"2xl": '3xl', xl: '3xl', lg: 'xl', md: 'lg', sm: 'sm', base: 'xs'}} 
             > 
-            What is HOlympics? </Heading>
+            What is Hacker Olympics? </Heading>
           <Text 
             style={workSans.style} 
             color="#FFFFFF" 
             fontSize = {{"2xl": '2xl', xl: '2xl', lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}}
             pt="10px" 
             textAlign="left"> 
-            The Hacker Olympics is an alternate competition stream for a selected group of beginner 
-            hackers who aim to expand their coding skills and tech knowledge during SheHacks+. 
-          </Text>
+            The Hacker Olympics is an alternate competition stream for a selected group of beginner hackers who aim to expand their coding skills and tech knowledge during SheHacks.          </Text>
           <Heading 
             style={abril.style} 
             color="#F1B927" 
@@ -117,10 +115,7 @@ export default function HackerOlympics() {
             fontSize = {{"2xl": '2xl', xl: '2xl', lg: '2xl', md: 'md', sm: 'sm', base: '8px'}}
             pt="10px" 
             textAlign="left"> 
-            Hackers in this stream will work in teams of 4 to complete a series of specially-designed 
-            technical challenges instead of competing in the regular stream to build the “perfect” hack. 
-            Challenges will be built upon skills taught in workshops that run during SheHacks+.
-          </Text>
+            Hackers in this stream will work in teams of 4 to complete a series of specially-designed technical challenges instead of competing in the regular stream to build the “perfect” hack. Challenges will be built upon skills taught in workshops that run during SheHacks          </Text>
 
         </Box>
 
@@ -192,7 +187,7 @@ export default function HackerOlympics() {
             <br/> <br/>
             Hacker Olympics is all about getting your hands dirty with coding and designing. 
             We understand how intimidating it can be to start coding and learning about tech 
-            given the enormous number of technology fields.
+            (given the enormous number of technology fields).
           </Text>
         </Box>
       </HStack>
