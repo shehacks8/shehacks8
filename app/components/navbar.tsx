@@ -2,6 +2,7 @@
 
 'use client'
 import ChakraNextImage from "./Image";
+import { Image } from '@chakra-ui/react'
 
 import {
   Box,
@@ -58,7 +59,8 @@ export default function WithSubnavigation() {
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
           <Link href = "/">
-          <ChakraNextImage
+          
+          <Image
             src = {"/homepage/logos/nav-logo.png"}
             height = {"35"}
             width = "39"
@@ -67,7 +69,7 @@ export default function WithSubnavigation() {
             />
             </Link>
             <Link href = "https://techtogether.io/">
-            <ChakraNextImage
+            <Image
               src = {"/homepage/logos/togetherlogo.png"}
               height = {"35"}
               width = "35"

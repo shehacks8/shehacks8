@@ -6,6 +6,9 @@
 
 body{
   /* background-color: #e9f0d7; */
+  max-width: 100%;
+  overflow-x: hidden;
+
 }
 
 

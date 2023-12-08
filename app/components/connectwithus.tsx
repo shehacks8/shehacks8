@@ -35,12 +35,12 @@ export default function WithSubnavigation() {
 
     <Heading
     color="#FFFFFF"
-    size = {useBreakpointValue({ "2xl": '4xl', xl: '4xl', lg: '2xl', md: '2xl', sm: 'lg', base: 'md'})} 
-    pt={useBreakpointValue({ "2xl": '250px', lg: '100px', md: '55px', sm: '55px', base: ''})}    
+    size = {{ "2xl": '4xl', xl: '4xl', lg: '2xl', md: '2xl', sm: 'lg', base: 'md'}} 
+    pt={{ "2xl": '250px', lg: '100px', md: '55px', sm: '55px', base: ''}}    
     > Connect with us</Heading>
     <Text 
       color = "#FFFFFF" 
-      fontSize = {useBreakpointValue({ lg: 'xl', md: 'lg', sm: 'sm', base: '8px'})} 
+      fontSize = {{ lg: 'xl', md: 'lg', sm: 'sm', base: '8px'}} 
       pt=""
       >
       Shoot us an email at wits.uwo@gmail.com!
@@ -48,7 +48,7 @@ export default function WithSubnavigation() {
     <Center>
       <HStack 
         pb = "100px"
-        pt={useBreakpointValue({ "2xl": '50px', lg: '30px', md: '25px', sm: '0px', base: '0px'})}    
+        pt={{ "2xl": '50px', lg: '30px', md: '25px', sm: '0px', base: '0px'}}    
 
         >
         <Link href = "https://www.facebook.com/shehacks.uwo/">
@@ -56,8 +56,8 @@ export default function WithSubnavigation() {
               aria-label='Facebook'
               variant= "outline"
               colorScheme='blackAlpha'
-              fontSize= {useBreakpointValue({ lg: '45px', md: '35px', sm: '25px', base: '15px'})} 
-              size= {useBreakpointValue({ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'})} 
+              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
+              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
               icon={<FaFacebookSquare />}
             />
           </Link>
@@ -67,8 +67,8 @@ export default function WithSubnavigation() {
               aria-label='instagram'
               variant= "outline"
               colorScheme='blackAlpha'
-              fontSize= {useBreakpointValue({ lg: '45px', md: '35px', sm: '25px', base: '15px'})} 
-              size= {useBreakpointValue({ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'})} 
+              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
+              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
               icon={<FaInstagramSquare />}
             />
           </Link>
@@ -78,8 +78,8 @@ export default function WithSubnavigation() {
               aria-label='Mail'
               variant= "outline"
               colorScheme='blackAlpha'
-              fontSize= {useBreakpointValue({ lg: '45px', md: '35px', sm: '25px', base: '15px'})} 
-              size= {useBreakpointValue({ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'})} 
+              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
+              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
               icon={<ImMail />}
             />
           </Link>
@@ -89,8 +89,8 @@ export default function WithSubnavigation() {
               aria-label='Linkedin'
               variant= "outline"
               colorScheme='blackAlpha'
-              fontSize= {useBreakpointValue({ lg: '50px', md: '40px', sm: '30px', base: '20px'})} 
-              size= {useBreakpointValue({ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'})} 
+              fontSize= {{ lg: '50px', md: '40px', sm: '30px', base: '20px'}} 
+              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
               icon={<FaLinkedin />}
             />
           </Link>

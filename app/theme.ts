@@ -43,39 +43,6 @@ const colors = {
 }
 
 
-
-/* tried to create custom window component */
-
-// import { defineStyleConfig  } from '@chakra-ui/react';
-
-
-// const Stack = defineStyleConfig({
-//     variants:{
-//         window: {
-//                 bg: 'window',
-//                 w: "60vw",
-//                 h: "60vh",
-//                 my: "15vh",
-//                 borderWidth:'1px',
-//                 borderRadius: 'lg',
-//         }
-//     }
-
-// })
-
-// import { Stack, useStyleConfig } from '@chakra-ui/react'
-
-// function mainWindow(props) {
-//     const {variant, ...rest} = props
-
-//     const styles = useStyleConfig('mainWindow', {variant})
-
-//     return <Stack __css={styles} {...rest} />
-// }
-
-
-// const components = {};
-
 const overrides = {
 
     
