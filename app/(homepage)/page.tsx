@@ -45,19 +45,20 @@ export default function HomePage() {
 
     >
       <Box
-        ml ={"15"}
-      >
-      <Link href = "https://mlh.io/seasons/2023/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black">
+        ml ={["15","15","25","35","35","50",]}
+        height = {[ '30px', '40px', '60px', '90px', '90px', '125px']} 
+        width = {[ '30px', '45px', '70px', '70px', '75px', '100px']} >
+              <Link href = "https://mlh.io/seasons/2024/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black">
+
         <Image 
           src = {"https://s3.amazonaws.com/logged-assets/trust-badge/2024/mlh-trust-badge-2024-white.svg"}
-          height = {[ '45px', '55px', '75px', '100px', '100px', '150px']} 
-          width = {[ '45px', '55px', '75px', '75px', '75px', '125px']} 
+
           // sizes = {"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"}
           // width = {"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"}
 
           alt = {"mlh logo"}
           />
-      </Link>
+                </Link>      
       </Box>
 
 {/* title */}      
@@ -74,17 +75,19 @@ export default function HomePage() {
           color="#FFFFFF" 
           fontSize = {{ "2xl": 'xl', xl: 'xl', lg: 'lg', md: 'lg', sm: 'sm', base: 'xs'}} 
           > Powered By </Text>
-        <Image
-          src= {"https://techtogether.io/imgs/logos/lockup_techtogether_color.png"}
-          // mt = "400px"
-          // sizes = {"(min-width: 0px) 100px ,(min-width: 480px) 200px, (min-width: 768px) 250px, (min-width: 992px) 250px, (min-width: 1280px) 400px, (min-width: 1280px) 500px"}
-          // width = {width1}
-          // height= {height1}
-          width = {{ '2xl': '100px', xl:'100px', lg: '75px', md:'75px',sm: '50px', base: '45px'}}
-          height = {{ '2xl': '25px', xl:'25px', lg: '25px', md:'25px',sm: '25px', base: '15px'}}
-          alt={'techtogetherlong'}
-          objectFit={"contain"}
-        />
+          <Link href = "https://techtogether.io/">
+            <Image
+              src= {"https://techtogether.io/imgs/logos/lockup_techtogether_color.png"}
+              // mt = "400px"
+              // sizes = {"(min-width: 0px) 100px ,(min-width: 480px) 200px, (min-width: 768px) 250px, (min-width: 992px) 250px, (min-width: 1280px) 400px, (min-width: 1280px) 500px"}
+              // width = {width1}
+              // height= {height1}
+              width = {{ '2xl': '100px', xl:'100px', lg: '75px', md:'75px',sm: '50px', base: '45px'}}
+              height = {{ '2xl': '25px', xl:'25px', lg: '25px', md:'25px',sm: '25px', base: '15px'}}
+              alt={'techtogetherlong'}
+              objectFit={"contain"}
+            />
+        </Link>
             
 </HStack>
         <Text 
