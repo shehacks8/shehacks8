@@ -278,7 +278,7 @@ export default function HomePage() {
               <Link href={"homepage/sponsors/MorningStar.svg"}>
                 <Image
                   sizes={"(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"}
-                  src={"/homepage/sponsors/Morningstar.svg"}
+                  src={"/homepage/sponsors/Morningstar.svg.png"}
                   width={"26vw"}
                   // width={["75px", '125px', '175px', '225px', '300px', '300px']}
                   // height={["75px", '125px', '175px', '225px', '300px', '300px']}
