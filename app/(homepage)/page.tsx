@@ -4,6 +4,7 @@ import styles from './page.module.css';
 import { Image } from '@chakra-ui/react'
 import NextImage from 'next/image'
 import ChakraNextImage from "../components/Image";
+import bg from '../../public/homepage/background/mainpage.svg'
 import {
   Heading,
   Button,
@@ -40,7 +41,10 @@ export default function HomePage() {
         fontFamily='Lobster'
         backgroundImage="/homepage/background/mainpage.svg"
         backgroundSize="100%"
-        backgroundRepeat="repeat-x"
+        
+        // backgroundRepeat="repeat-x"
+        // backgroundPosition={"center"}
+        // backgroundBlendMode={"color"}
         bgColor={"#ABA48C"}
 
       >
