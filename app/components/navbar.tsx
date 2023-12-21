@@ -73,6 +73,7 @@ export default function WithSubnavigation() {
               src = {"/homepage/logos/togetherlogo.png"}
               height = {"35"}
               width = "35"
+              mt = "5px"
               alt = {"techtogether logo"}
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               />

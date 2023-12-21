@@ -21,9 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <div>
-      <Navigation/>
+      <Navigation />
       {children}
-      <ConnectWithUs/>
+      <ConnectWithUs />
     </div>
   )
 }
