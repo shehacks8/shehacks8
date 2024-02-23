@@ -14,6 +14,8 @@ import {
   useBreakpointValue,
 } from '@chakra-ui/react'
 
+import {InstagramIcon, FacebookIcon, LinkedInIcon, EmailIcon, LinkedInClear} from './icons'
+
 
 
 export default function WithSubnavigation() {
@@ -52,47 +54,24 @@ export default function WithSubnavigation() {
 
         >
         <Link href = "https://www.facebook.com/shehacks.uwo/">
-            <IconButton
-              aria-label='Facebook'
-              variant= "outline"
-              colorScheme='blackAlpha'
-              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
-              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
-              icon={<FaFacebookSquare />}
-            />
+            <FacebookIcon/>
           </Link>
           <Spacer/>
           <Link href="https://www.instagram.com/wits.uwo/">
-            <IconButton
-              aria-label='instagram'
-              variant= "outline"
-              colorScheme='blackAlpha'
-              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
-              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
-              icon={<FaInstagramSquare />}
-            />
+            <InstagramIcon/>
+            
           </Link>
           <Spacer/>
           <Link href = "mailto:wits.uwo@gmail.com">
-            <IconButton
-              aria-label='Mail'
-              variant= "outline"
-              colorScheme='blackAlpha'
-              fontSize= {{ lg: '45px', md: '35px', sm: '25px', base: '15px'}} 
-              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
-              icon={<ImMail />}
-            />
+            <EmailIcon/>
           </Link>
           <Spacer/>
           <Link href = "https://ca.linkedin.com/company/uwowits">
-            <IconButton
-              aria-label='Linkedin'
-              variant= "outline"
-              colorScheme='blackAlpha'
-              fontSize= {{ lg: '50px', md: '40px', sm: '30px', base: '20px'}} 
-              size= {{ lg: 'lg', md: 'md', sm: 'sm', base: 'xs'}} 
-              icon={<FaLinkedin />}
-            />
+            <LinkedInIcon/>
+          </Link>
+
+          <Link href = "https://ca.linkedin.com/company/uwowits">
+            <LinkedInClear/>
           </Link>
       </HStack>
     </Center>
