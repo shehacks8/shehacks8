@@ -69,10 +69,6 @@ export default function WithSubnavigation() {
           <Link href = "https://ca.linkedin.com/company/uwowits">
             <LinkedInIcon/>
           </Link>
-
-          <Link href = "https://ca.linkedin.com/company/uwowits">
-            <LinkedInClear/>
-          </Link>
       </HStack>
     </Center>
     </Box>
