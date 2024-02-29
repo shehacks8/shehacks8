@@ -40,18 +40,20 @@ export default function HomePage() {
       <Box
         fontFamily='Lobster'
         backgroundImage="/homepage/background/mainpage.svg"
-        backgroundSize="100%"
+        backgroundSize="cover"
+        overflow = "hidden"
+        backgroundRepeat="no-repeat"
+        backgroundPosition = "center"
+        bgColor={"#B2AD98"}
+        >
         
-        // backgroundRepeat="repeat-x"
-        // backgroundPosition={"center"}
-        // backgroundBlendMode={"color"}
-        bgColor={"#ABA48C"}
 
-      >
+      
         <Box
           ml={["15", "15", "25", "35", "35", "50",]}
           height={['30px', '40px', '60px', '90px', '90px', '125px']}
-          width={['30px', '45px', '70px', '70px', '75px', '100px']} >
+          width={['30px', '45px', '70px', '70px', '75px', '100px']} 
+          >
           <Link href="https://mlh.io/seasons/2024/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black">
 
             <Image

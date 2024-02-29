@@ -5,15 +5,16 @@
 } */
 
  body{
-  /* background-color: #e9f0d7; */
+  /* background-color: #b4f70a; */
   max-width: 100%;
   overflow-x: hidden;
 
 }
 
 * {
-  margin: 0;
+  margin: 10;
   padding: 0;
+  border-color: white;
   }
 
 *::-webkit-scrollbar {
@@ -32,6 +33,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
+
   background-color: #979591;
   
 } 
