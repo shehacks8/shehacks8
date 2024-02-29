@@ -39,7 +39,7 @@ export default function HackerOlympics() {
         backgroundImage="/homepage/background/hackerolympics.svg"
         backgroundSize="100%"
         backgroundRepeat="no-repeat"
-        bgColor={"#7CD5CB"}>
+        bgColor={"#ffffff"}>
 
         <Box
           ml={"15"}
